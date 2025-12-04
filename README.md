@@ -1,129 +1,142 @@
-Expense Tracker MCP Server
+💸 Expense Tracker MCP Server
 
-This is my MCP server for tracking expenses
-I made this using FastMCP
-It helps me store my daily expenses and manage them in a simple way
-
-⸻
-
-Features of this MCP server
-
-Add Expenses
-
-I can add a new expense with date amount category subcategory and note
-
-Delete Expenses
-
-I can delete any saved expense
-
-Update Expenses
-
-I can edit any old expense
-
-List All Expenses
-
-I can see all expenses
-I can also see expenses in a selected date range
-
-Calculate Total Expense
-
-I can get the total money spent
-I can also get the total spent for any category
-
-Filter By Category
-
-I can see expenses for one category only
-Like food travel shopping and more
+This is my MCP server for tracking daily expenses — built using FastMCP!
+It helps me store, manage, and analyze my spending in a simple and beginner-friendly way. 🚀
 
 ⸻
 
-How it works
+⭐ Features of This MCP Server
 
-The server uses SQLite database
-FastMCP helps me create tools that any MCP app can use
-You can access this server from your local device using a connector
+➕ Add Expenses
+
+Add a new expense with:
+	•	📅 Date
+	•	💵 Amount
+	•	🏷️ Category
+	•	🔖 Subcategory
+	•	📝 Note
+
+❌ Delete Expenses
+
+Remove any saved expense instantly.
+
+✏️ Update Expenses
+
+Edit or update older expenses anytime.
+
+📄 List All Expenses
+
+View all your expenses or filter by a date range.
+
+🧮 Calculate Total Expense
+
+Get:
+	•	Total money spent
+	•	Total spent in a specific category
+
+🎯 Filter by Category
+
+See all expenses in one category like:
+	•	🍔 Food
+	•	🚌 Travel
+	•	🛍️ Shopping
+and more!
 
 ⸻
 
-Public MCP Server Link
-
-I deployed this server on FastMCP Cloud
-Anyone can access it using this link
-
-https://expense-tracker-dhruta.fastmcp.app/mcp
-
-This link is my live MCP server
-You can connect it to your own device and use all tools
+🛠️ How It Works
+	•	Uses a SQLite database
+	•	Built with FastMCP which allows creating tools that any MCP-compatible app can use
+	•	You can connect to this server from your device using a remote MCP connector
 
 ⸻
 
-How to use this MCP server on your local device
+🌍 Public MCP Server Link
 
-This section is for complete beginners
-Follow step by step and it will work
+I deployed this project on FastMCP Cloud.
+You can access my live server here:
+
+👉 https://expense-tracker-dhruta.fastmcp.app/mcp
+
+Anyone can connect and try out the tools!
 
 ⸻
 
-Step 1
+📘 How to Use This MCP Server on Your Device (Beginner-Friendly)
 
-Download Claude Desktop on your device
-Claude Desktop supports MCP connectors
-After install open Claude
+Follow these steps and it will work smoothly 👇
 
-Step 2
+⸻
 
-Go to settings in Claude Desktop
-Inside settings find the option called MCP
-This is where we add connectors
+🧩 Step 1 — Install Claude Desktop
 
-Step 3
+Download Claude Desktop (supports MCP connectors).
+After installation → open Claude.
+
+⸻
+
+⚙️ Step 2 — Open MCP Settings
+
+Go to:
+Settings → MCP
+This is where connectors are added.
+
+⸻
+
+➕ Step 3 — Add New Connector
 
 Click Add New Connector
-Now you will see two fields
-Connector Type
-Connector Path or URL
 
-Select MCP Remote Server or similar option
-Paste my server link in the field
+You will see:
+	•	Connector Type
+	•	Connector Path / URL
 
-https://expense-tracker-dhruta.fastmcp.app/mcp
+Choose MCP Remote Server (or similar)
+Paste this URL:
 
-Save it
+🔗 https://expense-tracker-dhruta.fastmcp.app/mcp
 
-Step 4
-
-Claude will now connect to my Expense Tracker MCP automatically
-You will see all tools like
-add_expenses
-update_expenses
-delete_expenses
-list_expenses
-calculate_total
-filter_by_category
-
-Now you can start asking Claude
-like
-Add a new expense
-Show total expense
-Delete expense on this date
-and more
-
-Everything will work because the connector is linked to my MCP server
+Click Save.
 
 ⸻
 
-Why I made this
+🤖 Step 4 — Start Using Tools
 
-I wanted an easy way to track my money
-I also wanted to learn MCP
-So I made this project and deployed it
+Claude will automatically connect to the server.
+
+You will see tools like:
+	•	add_expense
+	•	update_expense
+	•	delete_expense
+	•	list_expenses
+	•	calculate_total
+	•	filter_by_category
+
+Now you can ask Claude things like:
+	•	“Add a new expense for 200 rupees on Food”
+	•	“Show total spent this month”
+	•	“Delete the travel expense on this date”
+
+Everything works because your Claude is linked to my MCP server 🎉
 
 ⸻
 
-Future Plans
+🎯 Why I Built This
 
-Add user login
-Add charts
-Add monthly report
-Add export to csv
-Add dark mode ui for a web dashboard
+I wanted:
+	•	a simple way to track my money
+	•	to learn how MCP works
+	•	to deploy my own MCP app
+
+So I created this project and published it online 🚀
+
+⸻
+
+🔮 Future Plans
+
+Here’s what I want to add next:
+	•	🔐 User login
+	•	📊 Charts & graphs
+	•	🗓️ Monthly reports
+	•	📤 Export to CSV
+	•	🖤 Dark mode web dashboard
